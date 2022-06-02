@@ -6,4 +6,4 @@ const server = http.createServer((req, res) => {
     res.end('Hello World! I am your new NodeJS app! \n');
 });
 
-server.listen(3000, "localhost");
+server.listen();
